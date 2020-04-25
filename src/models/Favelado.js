@@ -76,7 +76,7 @@ const userSchema = new Schema({
         type: Boolean,
         default: false
     },
-    chronicDisease: {
+    symptoms: {
         type: String,
         enum: ['Cansaço',
         'Dor no corpo inteiro',
