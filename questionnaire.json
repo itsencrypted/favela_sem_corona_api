@@ -1,0 +1,87 @@
+[
+    {
+        "id": "completeName",
+        "label": "Nome Completo:",
+        "type": "objective"
+    },
+    {
+        "id": "gender",
+        "label": "Genero: ",
+        "type": "dropdown",
+        "items": [
+            "Male",
+            "Female",
+            "Other"
+        ]
+    },
+    {
+        "id": "isPregnant",
+        "label": "Voce esta gravida?: ",
+        "type": "radio",
+        "items": [
+            {
+                "title": "Sim",
+                "value": "sim"
+            },
+            {
+                "title": "Nao",
+                "value": "nao"
+            }
+        ]
+    },
+    {
+        "id": "symptoms",
+        "label": "Quais seus sintomas:",
+        "items": [
+            {
+                "title": "Cansaço",
+                "value": "Cansaço"
+            },
+            {
+                "title": "Dor no corpo inteiro",
+                "value": "Dor no corpo inteiro"
+            },
+            {
+                "title": "Falta de ar",
+                "value": "Falta de ar"
+            },
+            {
+                "title": "Febre",
+                "value": "Febre"
+            },
+            {
+                "title": "Nariz escorrendo ou espirros",
+                "value": "Nariz escorrendo ou espirros"
+            },
+            {
+                "title": "Dor de cabeça",
+                "value": "Dor de cabeça"
+            },
+            {
+                "title": "Perda de apetite",
+                "value": "Perda de apetite"
+            },
+            {
+                "title": "Tosse seca",
+                "value": "Tosse seca"
+            },
+            {
+                "title": "Dor de garganta",
+                "value": "Dor de garganta"
+            },
+            {
+                "title": "Vômito",
+                "value": "Vômito"
+            },
+            {
+                "title": "Náusea",
+                "value": "Náusea"
+            },
+            {
+                "title": "Diarréia",
+                "value": "Diarréia"
+            }
+        ],
+        "type": "multiple"
+    }
+]
