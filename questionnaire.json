@@ -5,6 +5,11 @@
         "type": "objective"
     },
     {
+        "id": "birthday",
+        "label": "Data de nascimento:",
+        "type": "objective"
+    },
+    {
         "id": "gender",
         "label": "Genero: ",
         "type": "dropdown",
