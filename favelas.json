@@ -1,6 +1,7 @@
 [
 	{
 		"title": "ANDARAI",
+		"Bairro": "ANDARAI",
 		"Lat": "-22.92911449",
 		"Long": "-43.25341942",
 		"AP": "2.2",
@@ -10,6 +11,7 @@
 	},
 	{
 		"title": "VASCO DA GAMA / BARREIRA DO VASCO",
+		"Bairro": "VASCO DA GAMA",
 		"Lat": "-22.89183621",
 		"Long": "-43.22654874",
 		"AP": "1",
@@ -18,10 +20,8 @@
 		"description": "Após o final de Segunda Guerra Mundial (1939-1945), soldados que não tinham onde morar começaram a ocupar a área localizada em São Cristóvão, que hoje é conhecida como Barreira do Vasco. Durante o primeiro governo de Getúlio Vargas (1930-1945) o terreno foi doado aos moradores. Já os primeiros moradores do morro do Tuiuti chegaram em 1917 e adquiriram seus lotes por meio de escrituras lavradas em cartório. A maioria dos terrenos é particular, alguns não resistiram à ocupação irregular e outros foram doados. No início da ocupação foi construído, pelo arquiteto Afonso Eduardo Reidy, o Conjunto Habitacional Mendes de Morais.  "
 	},
 	{
-		"title": "BATAN",
-		"Bairro": "MAGALHAES BASTOS",
+		"title": "FAVELA DO BATAN",
 		"Bairro": "REALENGO",
-		"Bairro": "VILA MILITAR",
 		"Lat": "-22.87277435",
 		"Long": "-43.413511",
 		"AP": "5.1",
@@ -82,7 +82,6 @@
 	{
 		"title": "Complexo da Maré",
 		"Bairro": "MARE",
-		"Bairro": "RAMOS",
 		"Lat": "-22.85963935",
 		"Long": "-43.24245167",
 		"AP": "3.1",
@@ -132,7 +131,7 @@
 	},
 	{
 		"title": "Fallet / Fogueteiro / Coroa",
-		"Bairro": "RIO COMPRIDO",
+		"Bairro": "SANTA TERESA",
 		"img": "http://portalgeo.rio.rj.gov.br/mapa_digital_rio/assets/images/territorios/PortalUPP_Fallet.JPG",
 		"ibge": "http://portalgeo.rio.rj.gov.br/mapa_digital_rio/assets/images/fallet.jpg",
 		"description": "As comunidades que compõem essa UPP estão localizadas nos bairros de Santa Teresa e Rio Comprido. As primeiras construções do Fallet são anteriores, de 1931, quando empregados de uma família tradicional que habitava as redondezas se mudaram para o local. A ocupação do morro da Coroa iniciou-se em 1946, com a chegada de moradores expulsos do Centro com o desmonte do morro de Santo Antonio. Há algumas versões para o nome Coroa. Uma afirma que o nome faz alusão ao fato o formato arredondado da região se assemelharia ao objeto; outra defende que um antigo campo de futebol teria dado origem ao nome por estar na parte mais alta do morro. No Fogueteiro, uma curiosidade chama a atenção dos visitantes: a maioria das ruas e becos tem nomes de países africanos. Assim, é possível visitar a Associação de Moradores no beco Líbia ou cruzar o beco Zaire. A Unidade de Polícia Pacificadora da região foi a décima quinta, inaugurada em 25 de fevereiro de 2011. O Fórum UPP Social foi realizado em 20 de maio de 2011. "
@@ -247,8 +246,6 @@
 	},
 	{
 		"title": "São João",
-		"Bairro": "CATUMBI",
-		"Bairro": "RIO COMPRIDO",
 		"Bairro": "CIDADE NOVA",
 		"Lat": "-22.91979224",
 		"Long": "-43.19713901",
