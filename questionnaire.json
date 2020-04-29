@@ -4,7 +4,7 @@
         "label": "Nome Completo:",
         "type": "objective",
         "keyboard": "text",
-        "formmater": "",
+        "formatter": "",
         "length": 2
     },
     {
@@ -12,7 +12,7 @@
         "label": "Data de nascimento:",
         "type": "objective",
         "keyboard": "number",
-        "formmater": "00/00/0000",
+        "formatter": "00/00/0000",
         "length": 10
     },
     {
