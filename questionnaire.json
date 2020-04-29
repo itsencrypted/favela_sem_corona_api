@@ -29,6 +29,7 @@
         "id": "isPregnant",
         "label": "Voce esta gravida?: ",
         "type": "radio",
+        "dependsOn":"Female",
         "items": [
             {
                 "title": "Sim",
