@@ -2,12 +2,18 @@
     {
         "id": "completeName",
         "label": "Nome Completo:",
-        "type": "objective"
+        "type": "objective",
+        "keyboard": "text",
+        "formmater": "",
+        "length": 2
     },
     {
         "id": "birthday",
         "label": "Data de nascimento:",
-        "type": "objective"
+        "type": "objective",
+        "keyboard": "number",
+        "formmater": "00/00/0000",
+        "length": 10
     },
     {
         "id": "gender",
