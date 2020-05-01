@@ -1,11 +1,36 @@
 [
     {
         "id": "completeName",
-        "label": "Nome Completo:",
+        "label": "Qual o seu nome? \nNome completo e sem abreviações",
         "type": "objective",
         "keyboard": "text",
         "formatter": "",
         "length": 2
+    },
+    {
+        "id": "gender",
+        "label": "Qual o seu sexo? ",
+        "type": "dropdown",
+        "items": [
+            "Masculino",
+            "Feminino"
+        ]
+    },
+    {
+        "id": "isPregnant",
+        "label": "Você esta gravida?: ",
+        "type": "radio",
+        "dependsOn": "Feminino",
+        "items": [
+            {
+                "title": "Sim",
+                "value": "sim"
+            },
+            {
+                "title": "Não",
+                "value": "nao"
+            }
+        ]
     },
     {
         "id": "birthday",
@@ -16,20 +41,55 @@
         "length": 10
     },
     {
-        "id": "gender",
-        "label": "Genero: ",
+        "id": "indentity",
+        "label": "Qual o seu CPF? Somente numeros",
+        "type": "objective",
+        "keyboard": "text",
+        "formatter": "000.000.000-00",
+        "length": 14
+    },
+    {
+        "id": "whatsAppNo",
+        "label": "Qual o seu número de whatsapp?",
+        "type": "objective",
+        "keyboard": "text",
+        "formatter": "(00) 00000-0000",
+        "length": 15
+    },
+    {
+        "id": "community",
+        "label": "Em qual comunidade você mora?",
         "type": "dropdown",
         "items": [
-            "Male",
-            "Female",
-            "Other"
+            "Águia de Ouro",
+            "Alto da Boavista",
+            "Anil",
+            "Bangu",
+            "Cidade de Deus",
+            "Curicica",
+            "Duque de Caixas",
+            "Manguinhos",
+            "Méier",
+            "Muzema",
+            "Nilópolis",
+            "Nova Iguaçu",
+            "Parque da Cidade",
+            "Pavão",
+            "Realengo",
+            "Rio das Pedras",
+            "Rocinha",
+            "Santa Marta",
+            "São Conrado",
+            "São Gonçalo",
+            "Tijuquinha",
+            "Tuiuti",
+            "Vidigal"
         ]
     },
     {
-        "id": "isPregnant",
-        "label": "Voce esta gravida?: ",
+        "id": "hasChronicDisease",
+        "label": "Você possui alguma doença crônica? (Ex: asma, diabetes, hipertensão)",
         "type": "radio",
-        "dependsOn":"Female",
         "items": [
             {
                 "title": "Sim",
@@ -42,12 +102,118 @@
         ]
     },
     {
+        "id": "chronicDisease",
+        "label": "Qual?",
+        "dependsOn": "sim",
+        "items": [
+            {
+                "title": "Diabetes",
+                "value": "Diabetes"
+            },
+            {
+                "title": "Câncer",
+                "value": "Câncer"
+            },
+            {
+                "title": "Hipertensão (pressão alta)",
+                "value": "Hipertensão (pressão alta)"
+            },
+            {
+                "title": "Imunossupressão",
+                "value": "Imunossupressão"
+            },
+            {
+                "title": "Problema de respiração (exemplo: asma)",
+                "value": "Problema de respiração (exemplo: asma)"
+            },
+            {
+                "title": "Problema no coração",
+                "value": "Problema no coração"
+            },
+            {
+                "title": "Problema no rim",
+                "value": "Problema no rim"
+            },
+            {
+                "title": "Outro",
+                "value": "Outro"
+            }
+        ],
+        "type": "multiple"
+    },
+    {
+        "id": "smokingHabits",
+        "label": "Você é fumante?",
+        "type": "radio",
+        "items": [
+            {
+                "title": "Sim",
+                "value": "sim"
+            },
+            {
+                "title": "Não",
+                "value": "nao"
+            },
+            {
+                "title": "Sou ex-fumante",
+                "value": "Sou ex-fumante"
+            }
+        ]
+    },
+    {
+        "id": "contactWithCovidInfected",
+        "label": "Você teve contato com alguém com coronavírus?",
+        "type": "radio",
+        "items": [
+            {
+                "title": "Não tive contato",
+                "value": "Não tive contato"
+            },
+            {
+                "title": "Tive contato",
+                "value": "Tive contato"
+            },
+            {
+                "title": "Tive contato com alguém suspeito",
+                "value": "Tive contato com alguém suspeito"
+            }
+        ]
+    },
+    {
+        "id": "hasAnySymptom",
+        "label": "Você tem algum sintoma?",
+        "type": "radio",
+        "items": [
+            {
+                "title": "Sim",
+                "value": "sim"
+            },
+            {
+                "title": "Não",
+                "value": "nao"
+            }
+        ]
+    },
+    {
         "id": "symptoms",
-        "label": "Quais seus sintomas:",
+        "label": "Quais?",
+        "dependsOn": "sim",
         "items": [
             {
                 "title": "Cansaço",
                 "value": "Cansaço"
+            },
+            {
+                "title": "Diarreia",
+                "value": "Diarreia"
+            },
+            {
+                "title": "Dor de cabeça",
+                "value": "Dor de cabeça"
+            },
+            {
+                "title": "Dor de garganta",
+                "value": "Dor de garganta"
             },
             {
                 "title": "Dor no corpo inteiro",
@@ -62,38 +228,65 @@
                 "value": "Febre"
             },
             {
-                "title": "Nariz escorrendo ou espirros",
-                "value": "Nariz escorrendo ou espirros"
-            },
-            {
-                "title": "Dor de cabeça",
-                "value": "Dor de cabeça"
-            },
-            {
-                "title": "Perda de apetite",
-                "value": "Perda de apetite"
-            },
-            {
-                "title": "Tosse seca",
-                "value": "Tosse seca"
-            },
-            {
-                "title": "Dor de garganta",
-                "value": "Dor de garganta"
-            },
-            {
-                "title": "Vômito",
-                "value": "Vômito"
+                "title": "Nariz escorrendo",
+                "value": "Nariz escorrendo"
             },
             {
                 "title": "Náusea",
                 "value": "Náusea"
             },
             {
-                "title": "Diarréia",
-                "value": "Diarréia"
+                "title": "Perda de apetite",
+                "value": "Perda de apetite"
+            },
+            {
+                "title": "Tosse",
+                "value": "Tosse"
+            },
+            {
+                "title": "Vômito",
+                "value": "Vômito"
             }
         ],
         "type": "multiple"
+    },
+    {
+        "id": "isPublicHealthCarePractitioner",
+        "label": "Você é profissional de saúde e atua no setor público?",
+        "type": "radio",
+        "items": [
+            {
+                "title": "Sim",
+                "value": "sim"
+            },
+            {
+                "title": "Não",
+                "value": "nao"
+            }
+        ]
+    },
+    {
+        "id": "whichHospital",
+        "label": "Onde você trabalha?",
+        "type": "objective",
+        "keyboard": "text",
+        "formatter": "",
+        "length": 2,
+        "dependsOn":"sim"
+    },
+    {
+        "id": "okWithTermsConditions",
+        "label": "As pessoas idosas e com doenças crônicas tem preferência na realização do teste, você está de acordo?",
+        "type": "radio",
+        "items": [
+            {
+                "title": "Estou de acordo",
+                "value": "Estou de acordo"
+            },
+            {
+                "title": "Não estou de acordo",
+                "value": "Não estou de acordo"
+            }
+        ]
     }
 ]
