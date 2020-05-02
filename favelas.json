@@ -210,7 +210,7 @@
 		"AP": "2.1",
 		"Extra_int1": "149",
 		"Extra_int2": "3",
-		"img": "http://portalgeo.rio.rj.gov.br/mapa_digital_rio/assets/images/territorios/Rocinha.jpg",
+		"img": "https://raw.githubusercontent.com/itsencrypted/favela_sem_corona_api/master/images/favelaRocinha.jpg",
 		"ibge": "http://portalgeo.rio.rj.gov.br/mapa_digital_rio/assets/images/rocinha.jpg",
 		"description": "A Rocinha tem status de bairro desde 1993. Localizada entre Gávea e São Conrado, ela é vizinha do morro do Vidigal, na Zona Sul da cidade. A Rocinha é hoje uma das maiores favelas da América latina e tem mais moradores que 92% dos municípios brasileiros, com 69.191 habitantes. Deste total, ¼ são crianças e 32% tem idade entre 15 e 29 anos de idade. Ou seja, a Rocinha é jovem. Estima-se seu surgimento em meados da década de 30, entre barracos e lavouras. Os moradores viviam basicamente da agricultura de suas roças, cujos produtos eram vendidos na feira da Praça Santos Dumond, na Gávea. Sempre diziam que plantavam em sua pequena terra, em sua “rocinha”. Daí surgiu o nome. A favela, que se encontra em uma Área de Especial interesse Social, instituída por lei em 2001, já recebeu recursos do Programa de Aceleração do Crescimento e fora incluída no âmbito da Fase 3 do Programa Morar Carioca. A UPP Rocinha foi inaugurada em 20 de setembro de 2012. "
 	},
