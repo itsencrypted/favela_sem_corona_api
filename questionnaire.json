@@ -19,7 +19,7 @@
     },
     {
         "id": "isPregnant",
-        "label": "Você esta grávida?: ",
+        "label": "Você está grávida?: ",
         "type": "radio",
         "dependsOn": "Feminino",
         "items": [
