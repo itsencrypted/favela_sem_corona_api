@@ -172,11 +172,11 @@
             },
             {
                 "title": "Tive contato",
-                "value": "Tive contato"
+                "value": "10"
             },
             {
                 "title": "Tive contato com alguém suspeito",
-                "value": "Tive contato com alguém suspeito"
+                "value": "10"
             }
         ]
     },
@@ -202,35 +202,35 @@
         "items": [
             {
                 "title": "Cansaço",
-                "value": "Cansaço"
+                "value": "1"
             },
             {
                 "title": "Diarreia",
-                "value": "Diarreia"
+                "value": "1"
             },
             {
                 "title": "Dor de cabeça",
-                "value": "Dor de cabeça"
+                "value": "1"
             },
             {
                 "title": "Dor de garganta",
-                "value": "Dor de garganta"
+                "value": "1"
             },
             {
                 "title": "Dor no corpo inteiro",
-                "value": "Dor no corpo inteiro"
+                "value": "1"
             },
             {
                 "title": "Falta de ar",
-                "value": "Falta de ar"
+                "value": "10"
             },
             {
                 "title": "Febre",
-                "value": "Febre"
+                "value": "5"
             },
             {
-                "title": "Nariz escorrendo",
-                "value": "Nariz escorrendo"
+                "title": "Nariz escorrendo ou espirros",
+                "value": "1"
             },
             {
                 "title": "Náusea",
@@ -241,8 +241,8 @@
                 "value": "Perda de apetite"
             },
             {
-                "title": "Tosse",
-                "value": "Tosse"
+                "title": "Tosse seca",
+                "value": "1"
             },
             {
                 "title": "Vômito",
