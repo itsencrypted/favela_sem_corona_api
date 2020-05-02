@@ -19,7 +19,7 @@
     },
     {
         "id": "isPregnant",
-        "label": "Você esta gravida?: ",
+        "label": "Você esta grávida?: ",
         "type": "radio",
         "dependsOn": "Feminino",
         "items": [
@@ -43,7 +43,7 @@
     },
     {
         "id": "indentity",
-        "label": "Qual o seu CPF? Somente numeros",
+        "label": "Qual o seu CPF? Somente números",
         "type": "objective",
         "keyboard": "number",
         "formatter": "000.000.000-00",
@@ -176,7 +176,7 @@
             },
             {
                 "title": "Tive contato com alguém suspeito",
-                "value": "10"
+                "value": "9.999"
             }
         ]
     },
@@ -202,23 +202,23 @@
         "items": [
             {
                 "title": "Cansaço",
-                "value": "1"
+                "value": "1.00"
             },
             {
-                "title": "Diarreia",
-                "value": "1"
+                "title": "Diarréia",
+                "value": "1.001"
             },
             {
                 "title": "Dor de cabeça",
-                "value": "1"
+                "value": "1.002"
             },
             {
                 "title": "Dor de garganta",
-                "value": "1"
+                "value": "1.003"
             },
             {
                 "title": "Dor no corpo inteiro",
-                "value": "1"
+                "value": "1.004"
             },
             {
                 "title": "Falta de ar",
@@ -230,7 +230,7 @@
             },
             {
                 "title": "Nariz escorrendo ou espirros",
-                "value": "1"
+                "value": "1.005"
             },
             {
                 "title": "Náusea",
@@ -242,7 +242,7 @@
             },
             {
                 "title": "Tosse seca",
-                "value": "1"
+                "value": "1.006"
             },
             {
                 "title": "Vômito",
