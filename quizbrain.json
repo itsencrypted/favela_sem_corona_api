@@ -1,6 +1,6 @@
 [
     {
-        "questionText": "Não existe um medicamento para a COVID-19, por isso as pessoas não se curam.",
+        "questionText": "[Teste]Não existe um medicamento para a COVID-19, por isso as pessoas não se curam.",
         "questionAnswer": 1,
         "questionImage": "https://raw.githubusercontent.com/itsencrypted/favela_sem_corona_api/master/images/stickers_fsc08.gif",
         "possibleAnswers": [
